@@ -1,3 +1,4 @@
+import { ButtonToTop } from '@/Components/ButtonToTop'
 import { Header } from '@/Components/Header'
 import { Outlet } from 'react-router-dom'
 import styled from 'styled-components'
@@ -15,6 +16,7 @@ export const PagePattern = () => {
         <Container>
             <Header />
             <Outlet />
+            <ButtonToTop />
         </Container>
     )
 }

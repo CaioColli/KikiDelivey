@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import IconLogo from '/Images/LogoIcon.svg'
+import { scrollTo } from '@/Utils/scrollTo'
 
 const Container = styled.header`
     align-items: center;
@@ -68,7 +69,7 @@ export const Header = () => {
                         Home
                     </ItemHeader>
 
-                    <ItemHeader>
+                    <ItemHeader onClick={() => scrollTo('#ServicesSection')}>
                         Sobre
                     </ItemHeader>
 
