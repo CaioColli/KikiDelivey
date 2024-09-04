@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import ImageBg from '/Images/CityBackground.png'
+import { Card } from './Card'
+import { Illustration } from './Illustration'
 
 const Container = styled.section`
     align-items: center;
@@ -12,8 +14,6 @@ const Container = styled.section`
     padding: 180px 48px;
     gap: 48px;
     flex-wrap: wrap;
-    
-    height: 100vh;
     @media (max-width: 1440px) {
         padding: 140px 48px;
     }
@@ -22,7 +22,8 @@ const Container = styled.section`
 export const InitialSection = () => {
     return (
         <Container>
-            
+            <Illustration />
+            <Card />
         </Container>
     )
 }
