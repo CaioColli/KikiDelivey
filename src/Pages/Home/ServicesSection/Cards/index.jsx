@@ -4,6 +4,8 @@ import Ponyo from '/Images/Ponyo.png'
 import styled from 'styled-components'
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger)
 
 const Container = styled.div`
     display: flex;
@@ -28,6 +30,11 @@ const Card = styled.div`
     justify-content: center;
     max-height: 200px;
     max-width: 200px;
+    transition: 0.5s ease;
+    
+    &:hover {
+        transform: scale(1.05);
+    }
 `
 
 const Illustration = styled.img``

@@ -15,13 +15,13 @@ const Title = styled.h1`
     // Nunca sera menor que 2rem
     // O tamanho será ajustado de acordo com 3vw + 1rem
     // Nunca sera maior que 5rem
-    font-size: clamp(2rem, 3vw + 1rem, 5rem);
+    font-size: clamp(1.5rem, 3vw + 1rem, 5rem);
     font-weight: 900;
     color: var(--White);
 `
 
 const Paragraph = styled.p`
-    font-size: clamp(1.125rem, 3vw + 1rem, 1.5rem);
+    font-size: clamp(1rem, 3vw + 1rem, 1.5rem);
     color: var(--White);
 `
 
