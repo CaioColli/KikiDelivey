@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    cursor: url('./Assets/Cursor/CursorDefault.svg'), auto;
+}
+
+:root {
+    --White: #EEEEEE;
+    --Red: #E05043;
+    --Beige: #F5F5DC;
+    --Pink: #DE97FF;
+    --Orange: #FFA500;
+    --Blue: #87CEEB;
+    --DarkBlue: #5397B2;
+    --Transparent: rgba(29, 41, 67, 0.3);
+    --Pointer: url('./Assets/Cursor/CursorPointer.svg'), pointer;
+}
