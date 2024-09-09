@@ -28,6 +28,7 @@ const Paragraph = styled.p`
 export const Button = styled.button`
     all: unset;
     background-color: var(--Red);
+    background-color: ${({ disabled }) => (disabled ? 'var(--Gray)' : 'var(--Red)')};
     border-radius: 30px;
     color: var(--White);
     padding: 16px 32px;

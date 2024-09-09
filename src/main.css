@@ -12,8 +12,10 @@ body {
 :root {
     --White: #EEEEEE;
     --Red: #E05043;
+    --ErroRed: #b60000;
     --Beige: #F5F5DC;
     --Pink: #DE97FF;
+    --Gray: #707070;
     --Orange: #FFA500;
     --Blue: #87CEEB;
     --DarkBlue: #5397B2;

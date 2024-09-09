@@ -15,7 +15,7 @@ const Container = styled.section`
     }
 `
 
-const Title = styled.h1`
+export const Title = styled.h1`
     font-size: 48px;
     font-size: clamp(1.5rem, 3vw + 1rem, 48px);
     color: var(--White);
