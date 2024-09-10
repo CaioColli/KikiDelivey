@@ -8,8 +8,18 @@ import { DeliveryData } from './DeliveryData'
 
 const CardContainer = styled.div`
     perspective: 1000px;
-    min-width: 600px;
-    min-height: 600px;
+    width: 600px;
+    height: 600px;
+
+    @media (max-width: 1024px) {
+        max-height: 400px;
+        max-width: 400px;
+    }
+
+    @media (max-width: 425px) {
+        max-height: 300px;
+        max-width: 300px;
+    }
 `
 
 const Card = styled.div`
@@ -45,7 +55,6 @@ const Back = styled(CardFace)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
 `
 
 const Header = styled.header`

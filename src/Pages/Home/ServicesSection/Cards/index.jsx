@@ -87,8 +87,7 @@ export const Cards = ({ containerRef }) => {
                             trigger: containerRef.current,
                             start: 'top center',
                             end: 'bottom center',
-                            onEnter: () => animation.play(),
-                            onEnterBack: () => animation.restart(),
+                            onEnter: () => animation.play()
                         },
                     }
                 )

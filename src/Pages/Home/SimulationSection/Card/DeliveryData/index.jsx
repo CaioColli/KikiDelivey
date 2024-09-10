@@ -8,7 +8,7 @@ const Container = styled.div`
 `
 
 const Title = styled.h1`
-    font-size: clamp(24px, 3vw + 1rem, 2rem);
+    font-size: clamp(1.125rem, 1vw + 1rem, 2rem);
     color: var(--White);
 `
 

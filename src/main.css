@@ -6,7 +6,20 @@
 }
 
 body {
-    cursor: url('./Assets/Cursor/CursorDefault.svg'), auto;
+    /* Troquei o ./ por @/ */
+    cursor: url('@/Assets/Cursor/CursorDefault.svg'), auto;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--White);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--Red);
 }
 
 :root {
@@ -19,6 +32,7 @@ body {
     --Orange: #FFA500;
     --Blue: #87CEEB;
     --DarkBlue: #5397B2;
+    --PinkBg: #FFB6C1;
     --Transparent: rgba(29, 41, 67, 0.3);
-    --Pointer: url('./Assets/Cursor/CursorPointer.svg'), pointer;
+    --Pointer: url('@/Assets/Cursor/CursorPointer.svg'), pointer;
 }

@@ -4,8 +4,6 @@ import gsap from 'gsap'
 import { useEffect, useRef } from 'react'
 
 const Image = styled.img`
-    width: 50vh;
-
     @media (max-width: 1440px) {
         max-width: 30vh;
     }

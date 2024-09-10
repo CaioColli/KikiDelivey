@@ -73,7 +73,7 @@ export const Header = () => {
                         Sobre
                     </ItemHeader>
 
-                    <ItemHeader>
+                    <ItemHeader onClick={() => scrollTo('#SimulationSection')}>
                         Serviços
                     </ItemHeader>
                 </ListHeader>

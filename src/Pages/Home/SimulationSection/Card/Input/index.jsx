@@ -13,8 +13,10 @@ const Container = styled.div`
 const InputContainer = styled.div`
   position: relative;
   height: fit-content;
-  min-width: 300px;
-  max-width: 300px;
+
+  @media (min-width: 1440px) {
+      min-width: 300px;
+  }
 `
 
 const TextInput = styled.input`

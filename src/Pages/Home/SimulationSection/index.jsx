@@ -11,19 +11,30 @@ const Container = styled.section`
     flex-direction: column;
     padding: 48px 0 120px 0;
     gap: 120px;
+
+    @media (max-width: 425px) {
+        gap: 64px;
+    }
 `
 
 const Content = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
+    padding: 0 96px;
+    justify-content: center;
+    align-items: center;
 `
 
-const Image = styled.img``
+const Image = styled.img`
+    @media (max-width: 1024px) {
+        max-width: 40vh;
+    }
+`
 
 export const SimulationSection = () => {
     return (
-        <Container>
+        <Container id='SimulationSection'>
             <Title>
                 Simule uma entrega
             </Title>
@@ -31,6 +42,7 @@ export const SimulationSection = () => {
                 <InputProvider>
                     <SimulationCard />
                 </InputProvider>
+
                 <Image src={DidiImage} alt='Ilustração do personagem Didi' />
             </Content>
         </Container>
