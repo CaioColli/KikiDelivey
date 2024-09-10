@@ -6,8 +6,7 @@
 }
 
 body {
-    /* Troquei o ./ por @/ */
-    cursor: url('./Assets/Cursor/CursorDefault.svg'), auto;
+    cursor: url('./assets/Cursor/CursorDefault.svg'), auto;
 }
 
 body::-webkit-scrollbar {
@@ -34,5 +33,5 @@ body::-webkit-scrollbar-track {
     --DarkBlue: #5397B2;
     --PinkBg: #FFB6C1;
     --Transparent: rgba(29, 41, 67, 0.3);
-    --Pointer: url('./Assets/Cursor/CursorPointer.svg'), pointer;
+    --Pointer: url('./assets/Cursor/CursorPointer.svg'), pointer;
 }
